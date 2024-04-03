@@ -18,6 +18,7 @@ public class ArrayListPractise {
 		al.add("Arpan");
 		System.out.println(al);
 		
+		
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		list.add(50);
 		list.add(30);
