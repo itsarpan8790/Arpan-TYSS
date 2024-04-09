@@ -3,7 +3,7 @@ package selfPractise;
 public class LargestSubstringWithoutVowel {
 
 	public static void main(String[] args) {
-		String s = "encyclopedia"; // ncycl
+		String s = "abbbbbbbbecccodd"; // ncycl
 
 		int max = 0;
 		for (int i = 0; i < s.length(); i++) {
