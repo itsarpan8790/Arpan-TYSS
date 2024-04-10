@@ -6,7 +6,7 @@ public class NameSorting {
 	public static void main(String[] args) {
 		NameSorting	n1=new NameSorting();
 		n1.a=4;
-		//n1.b=5;
+		n1.b=5;
 		NameSorting	n2=new NameSorting();
 		n2.a=9;
 		n2.b=9;
