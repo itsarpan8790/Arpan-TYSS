@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selfPractise.Microsoftteam">
+      <class name="selfPractise.BookingcomAutomateTest">
         <methods>
-          <include name="callEnd"/>
+          <include name="testcase1"/>
         </methods>
-      </class> <!-- selfPractise.Microsoftteam -->
+      </class> <!-- selfPractise.BookingcomAutomateTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
