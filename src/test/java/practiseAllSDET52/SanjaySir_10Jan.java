@@ -3,7 +3,7 @@ package practiseAllSDET52;
 public class SanjaySir_10Jan {
 	public static void main(String[] args) {
 
-		String s = "india isxyz india";
+		String s = "india isxyz india"; //xyzs are unique
 		String str = s.replaceAll(" ", "");
 		String[] ar = str.split("");
 

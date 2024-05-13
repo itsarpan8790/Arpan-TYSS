@@ -8,8 +8,8 @@ public class SanjaySir3 {
 		String str = "";
 		String strf = "";
 		for (int i = ar.length - 1; i >= 0; i--) {
-
-			str = str + ar[i] + ",";
+          
+			str = str + ar[i] + " ";
 
 		}
 		str.trim();

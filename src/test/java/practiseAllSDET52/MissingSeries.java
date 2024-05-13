@@ -1,37 +1,49 @@
 package practiseAllSDET52;
 
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class MissingSeries {
 	public static void main(String[] args) {
-		int[] ar = { 1,5,15,20 };
-		printMissing(ar);
-	}
-	public static void printMissing(int[]a)
-	{
-		int k=1;
-		for(int i=0;i<a.length;i++)
-		{
-			if(i!=a.length-1)
-			{
-			if(a[i]<a[i+1])a[i]=a[i];
-			else
-			{
-				a[i]=a[i]+a[i+1];
-				a[i+1]=a[i]-a[i+1];
-				a[i]=a[i]-a[i+1];
-			}
-		}
-	}
-		for(int i=1;i<a[a.length-1];i++) {
-			for(int j=0;j<a.length;j++)
-			{
-				if(a[j]==1)
-				{
-					i++;break;
-				}
-			}
-			System.out.println(i +" ");
-		}
-		
 
-}
+		int[] ar = { 1, 3, 5 };
+		int min = ar[0];
+		int max = ar[0];
+
+		// Finding min and max
+		for (int i = 0; i < ar.length; i++) {
+			if (ar[i] < min)
+				min = ar[i];
+			else if (ar[i] > max)
+				max = ar[i];
+
+		}
+
+		// Finding missing series
+		ArrayList<Integer> al = new ArrayList<Integer>();
+
+		for (int i = min; i <= max; i++) {
+			al.add(i);
+
+		}
+
+		Collections.sort(al);
+		System.out.println(al);
+		System.out.println();
+		for (int a1 : ar) {
+			System.out.print(a1 + " ");
+		}
+		System.out.println();
+
+		for (Integer a : al) {
+
+			int ginti = 1;
+			for (int i = 0; i < ar.length; i++) {
+				if (a == ar[i])
+					ginti++;
+			}
+			if (ginti == 1)
+				System.out.println(a + " ");
+		}
+	}
 }

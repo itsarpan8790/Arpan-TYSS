@@ -5,7 +5,7 @@ public class Recursion {
 	public static void main(String[] args) {
 		String s = "india";
 
-		int lastIndex = s.length() - 1;
+		int lastIndex = s.length() - 1;//4
 		reverse(s, lastIndex);
 
 		System.out.println();
