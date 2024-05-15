@@ -9,8 +9,8 @@ public class TwoNonstatic {
 	}
 	@Test
 	public static void m2() {
-		TwoNonstatic mm = new TwoNonstatic();
-		mm.m1();
+		TwoNonstatic TN = new TwoNonstatic();
+		TN.m1();
 		System.out.println("method 2");
 	}
 

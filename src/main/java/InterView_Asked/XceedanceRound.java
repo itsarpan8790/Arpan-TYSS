@@ -1,4 +1,4 @@
-package selfPractise;
+package InterView_Asked;
 
 import java.time.Duration;
 
@@ -6,10 +6,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
-public class MakeMyTrip_Interview {
+public class XceedanceRound {
 	public static void main(String[] args) throws InterruptedException {
-		WebDriver driver =new ChromeDriver();
+		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));		
 		driver.get("https://www.makemytrip.com/");
@@ -22,14 +23,14 @@ public class MakeMyTrip_Interview {
 		Thread.sleep(3000);
 		departure.click();
 		
-		String DAY="Fri";
-		for(int i=11;;i++) {
+		String DAY="Mon";
+		for(int i=14;;i++) {
 			
 			try {
 				String path="//div[@class='DayPicker-Day DayPicker-Day--selected']/ancestor::div[@class='DayPicker-Month']/descendant::div[contains(@aria-label,'"+DAY+" ') and contains(@aria-label,'"+i+"')]";
 				driver.findElement(By.xpath(path)).click();
 				
-			    System.out.println("try-->"+i);
+			    System.out.println("try-->"+i+" clicked");
 				break;
 			} catch (Exception e) {
 				System.out.println("catch-->"+i);

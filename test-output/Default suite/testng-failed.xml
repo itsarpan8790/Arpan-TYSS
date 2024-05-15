@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sonuuuuuuuulREST.LearnParameters">
+      <class name="sonuuuuuuuulREST.Req_Resp_SpecBuilders">
         <methods>
-          <include name="loginAndCapture"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- sonuuuuuuuulREST.LearnParameters -->
+      </class> <!-- sonuuuuuuuulREST.Req_Resp_SpecBuilders -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
