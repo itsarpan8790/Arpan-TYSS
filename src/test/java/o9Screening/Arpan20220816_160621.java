@@ -25,7 +25,9 @@ public class Arpan20220816_160621 {
 		ls1.add("dog");
 		ls1.add("cat");
 		ls1.add("dog");
+		
 		LinkedList<String> ls2 = new LinkedList<String>();
+		
 		for(int i=ls1.size()-1;i>=0;i--) {
 			ls2.add(ls1.get(i));
 		}
@@ -57,6 +59,21 @@ public class Arpan20220816_160621 {
 			num1=num2;
 			num2=num3;
 			count++;
+		}
+		
+	}
+	@Test
+	public void FibonacciForLoop() {
+		int num=10;
+		
+		int num1=0,num2=1;
+		
+		
+		for(int i=0;i<num;i++) {
+			System.out.print(num1+" ");
+			int f3=num1+num2;
+			num1=num2;
+			num2=f3;
 		}
 		
 	}
