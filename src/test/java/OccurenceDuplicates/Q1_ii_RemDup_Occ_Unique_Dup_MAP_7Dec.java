@@ -14,7 +14,7 @@ public class Q1_ii_RemDup_Occ_Unique_Dup_MAP_7Dec {
 
 			if (lhmap.containsKey(a[i]))
 				lhmap.put(a[i], lhmap.get(a[i]) + 1);
-			else
+			else// if map doesnot contain key
 				lhmap.put(a[i], 1);
 
 		}

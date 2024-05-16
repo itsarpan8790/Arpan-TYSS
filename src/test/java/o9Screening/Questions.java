@@ -17,7 +17,7 @@ public class Questions {
 				String f=ar[i];
 				int count = 0;
 				for (int j = 0; j < ar.length; j++) {
-					if (f.equals(ar[j])) {
+					if (ar[i].equals(ar[j])) {
 						count++;
 						flag[j] = true;
 					}
@@ -25,7 +25,7 @@ public class Questions {
 				}
 
 				if(count>1) {
-					System.out.println(f + " occurs " +count+" times");
+					System.out.println(ar[i] + " occurs " +count+" times");
 				}
 
 			}
