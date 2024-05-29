@@ -1,4 +1,4 @@
-package selfPractise;
+package myrandomPractises;
 
 public class SortingEx1_Comparable implements Comparable<SortingEx1_Comparable> {
 	String name;

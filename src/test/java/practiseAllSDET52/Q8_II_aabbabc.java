@@ -8,7 +8,7 @@ public class Q8_II_aabbabc {
 	@Test
 	public void main1() {
 		String s1 = "aabbcccbbc";
-		String s2 = "";
+
 		int count = 1;
 		for (int i = 0; i < s1.length() - 1; i++) {
 			if (s1.charAt(i) == s1.charAt(i + 1))

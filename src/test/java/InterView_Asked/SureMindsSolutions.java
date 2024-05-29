@@ -1,9 +1,17 @@
 package InterView_Asked;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 public class SureMindsSolutions {
@@ -45,8 +53,6 @@ public class SureMindsSolutions {
 		}
 
 	}
-	
-	
 
 	@Test(priority = 2)
 	public void countEachWord() {
@@ -74,6 +80,53 @@ public class SureMindsSolutions {
 			}
 		}
 
+	}
+
+	@Test
+	public void AlertWithoutGetText() {
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get("https://demo.automationtesting.in/Alerts.html");
+		driver.findElement(By.xpath("//button[@class='btn btn-danger']")).click();
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+	
+
+		if (alert != null) {
+			System.out.println(alert.getText());
+		}
+
+//		JavascriptExecutor js=(JavascriptExecutor) driver;
+//		Object text=js.executeScript("return arguments[0].textContent", alert1);
+//		String s= (String) text;
+//		System.out.println(s);
+
+		driver.quit();
+	}
+
+	@Test
+	public static void stringProblem() {
+		String s = "Sapient India Bruhat Bangalore";
+		// Output S@pient Indi@@ Bruh@@@t B@@@@ng@@@@@lore
+
+		String temp = "";
+		int count = 0;
+		for (int i = 0; i < s.length(); i++) {
+
+			if (s.charAt(i) == 'a') {
+				count++;
+				for (int j = 1; j <= count; j++) {
+					temp = temp + '@';
+
+				}
+			}
+
+			else
+
+				temp = temp + s.charAt(i);
+		}
+		System.out.println(temp);
 	}
 
 }

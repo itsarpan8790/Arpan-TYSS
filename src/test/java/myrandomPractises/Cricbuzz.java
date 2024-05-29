@@ -1,4 +1,4 @@
-package selfPractise;
+package myrandomPractises;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

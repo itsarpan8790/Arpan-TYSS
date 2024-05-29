@@ -1,4 +1,4 @@
-package selfPractise;
+package myrandomPractises;
 
 public class NameSorting {
 	static int a;

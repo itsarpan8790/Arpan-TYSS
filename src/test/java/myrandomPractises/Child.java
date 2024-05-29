@@ -1,4 +1,4 @@
-package selfPractise;
+package myrandomPractises;
 
 public class Child extends Parent{
 

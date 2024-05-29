@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 public class OccurenceInDigits_pending {
 	@Test
 	public void main() {
-		// int digit = 1122123111;
-		int digit = 123;
+		 int digit = 1122123111;
+		//int digit = 123;
 		int temp = digit, digitCount = 0;
 		int temp1 = digit;
 

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sonuuuuuuuulREST.Req_Resp_SpecBuilders">
+      <class name="InterView_Asked.SureMindsSolutions">
         <methods>
-          <include name="login"/>
+          <include name="AlertWithoutGetText"/>
         </methods>
-      </class> <!-- sonuuuuuuuulREST.Req_Resp_SpecBuilders -->
+      </class> <!-- InterView_Asked.SureMindsSolutions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

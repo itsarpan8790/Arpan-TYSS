@@ -1,4 +1,4 @@
-package selfPractise;
+package myrandomPractises;
 
 import java.awt.AWTException;
 import java.awt.Robot;
@@ -20,6 +20,7 @@ public class KeySimulationTypes {
 		Actions a=new Actions(driver);
 		a.keyDown(Keys.CONTROL);
 		a.sendKeys("a");
+		a.sendKeys(Keys.F12);
 		
 		
 	}

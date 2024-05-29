@@ -1,4 +1,4 @@
-package selfPractise;
+package myrandomPractises;
 
 import java.time.Duration;
 

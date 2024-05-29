@@ -1,4 +1,4 @@
-package selfPractise;
+package myrandomPractises;
 
 import org.testng.annotations.Test;
 
