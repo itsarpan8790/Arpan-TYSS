@@ -1,4 +1,4 @@
-package PrakashSirSpecific;
+package MyRandomPractices;
 
 import org.testng.annotations.Test;
 
@@ -38,14 +38,13 @@ public class GivenStringSubString {
 
 				i++;
 
-				if (j == substr.length()-1) {
+				if (j == substr.length()) {
 					count++;
 					break;
 				}
 
 			}
 		}
-		System.out.println(count);
 		if (count == 0)
 			System.out.println("no");
 		else
