@@ -37,7 +37,7 @@ public class GivenStringSubString {
 			for (int j = 0; j < substr.length() && str.charAt(i) == substr.charAt(j); j++) {
 
 				i++;
-
+                //For Checking if j reached to length-1-->Substring matched
 				if (j == substr.length()-1) {
 					count++;
 					break;
