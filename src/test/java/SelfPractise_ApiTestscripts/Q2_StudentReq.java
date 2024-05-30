@@ -1,4 +1,4 @@
-package sonuuuuuuuulREST;
+package SelfPractise_ApiTestscripts;
 
 import java.io.File;
 import java.io.IOException;
@@ -7,8 +7,8 @@ import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import PojoLibrarySonuul.Q2_Details;
-import PojoLibrarySonuul.Q2_Student;
+import selfPractise_APIPojos.Q2_Details;
+import selfPractise_APIPojos.Q2_Student;
 
 public class Q2_StudentReq {
 

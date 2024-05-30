@@ -3,7 +3,6 @@ package MyRandomPractices;
 import java.time.Duration;
 import java.util.List;
 
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -30,6 +29,7 @@ public class BookingcomAutomateTest {
 		//driver.findElement(By.xpath("//div[text()='Karnataka, India']/preceding-sibling::div[contains(.,'Bangalore')]"))
 				 driver.findElement(By.xpath("//div[text()='Bihar, India']/preceding-sibling::div[contains(.,'Patna')]"))
 				.click();
+				 
 		driver.switchTo().activeElement();
 		driver.findElement(
 				By.xpath("//h3[text()='April']/ancestor::div[@class='d358556c65']/descendant::span[text()='29']"))

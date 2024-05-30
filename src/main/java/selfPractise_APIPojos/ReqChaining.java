@@ -1,4 +1,4 @@
-package selfPractise_API;
+package selfPractise_APIPojos;
 
 import static io.restassured.RestAssured.*;
 

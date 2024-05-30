@@ -1,0 +1,28 @@
+{
+  "entity" : {
+    "id" : 3,
+    "name" : "James"
+  },
+  "conjunction" : "OR",
+  "condition" : [ {
+    "operation" : "equalTo",
+    "datakey" : "department",
+    "datatype" : "String",
+    "value" : "abc"
+  }, {
+    "operation" : "NotequalTo",
+    "datakey" : "id",
+    "datatype" : "number",
+    "value" : "100"
+  }, {
+    "operation" : "NotequalTo",
+    "datakey" : "name",
+    "datatype" : "Strubg",
+    "value" : "jack"
+  }, {
+    "operation" : "equalTo",
+    "datakey" : "endDate",
+    "datatype" : "20180502",
+    "value" : "20180519"
+  } ]
+}

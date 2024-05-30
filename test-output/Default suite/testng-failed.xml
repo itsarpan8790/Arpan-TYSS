@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="InterView_Asked.SureMindsSolutions">
+      <class name="MyRandomPractices.ExperimentWithSelenium">
         <methods>
-          <include name="AlertWithoutGetText"/>
+          <include name="exp1"/>
         </methods>
-      </class> <!-- InterView_Asked.SureMindsSolutions -->
+      </class> <!-- MyRandomPractices.ExperimentWithSelenium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

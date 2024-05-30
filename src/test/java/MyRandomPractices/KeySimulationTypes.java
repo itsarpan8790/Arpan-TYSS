@@ -21,7 +21,7 @@ public class KeySimulationTypes {
 		a.keyDown(Keys.CONTROL);
 		a.sendKeys("a");
 		a.sendKeys(Keys.F12);
-		
+		driver.findElement(null).sendKeys(Keys.CONTROL);
 		
 	}
 

@@ -1,7 +1,5 @@
 package o9Screening;
 
-import java.util.Iterator;
-
 public class Questions {
 	public static void main(String[] args) {
 		// Find out if there are any occurrences of the word in a sentence using regex

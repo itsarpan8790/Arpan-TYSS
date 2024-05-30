@@ -1,4 +1,4 @@
-package sonuuuuuuuulREST;
+package SelfPractise_ApiTestscripts;
 
 import static io.restassured.RestAssured.*;
 

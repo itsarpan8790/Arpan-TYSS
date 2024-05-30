@@ -1,4 +1,4 @@
-package PojoLibrarySonuul;
+package selfPractise_APIPojos;
 
 public class Q1_Product {
 	

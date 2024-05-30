@@ -40,7 +40,9 @@ public class Nikhil {
 			}
 			Thread.sleep(2000);
 		}
-		String res = count + "";
+		//String res = count + "";
+		String res = String.valueOf(count);
+		
 		String exp = driver.findElement(By.xpath("//span[contains(.,'result')]")).getText();
 		System.out.println(count);
 		if (exp.contains(res)) {
