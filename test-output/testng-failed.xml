@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="MyRandomPractices.ExperimentWithSelenium">
+      <class name="MyRandomPractices.ThreeBrowsers">
         <methods>
-          <include name="exp1"/>
+          <include name="main"/>
         </methods>
-      </class> <!-- MyRandomPractices.ExperimentWithSelenium -->
+      </class> <!-- MyRandomPractices.ThreeBrowsers -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
